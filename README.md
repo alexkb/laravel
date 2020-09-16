@@ -6,9 +6,9 @@ A quick starting point for running Laravel under Docker locally and on AWS. Note
 
 ### Initial setup
 
-1. Setup codebase
+1. Setup codebase. If creating a new project called blog:
 
-        $ composer create-project --prefer-dist alexkb/laravel-docker blog
+        $ git clone git@github.com:alexkb/laravel-docker.git blog
     
 2. Build and run application
 
@@ -22,6 +22,15 @@ A quick starting point for running Laravel under Docker locally and on AWS. Note
         $ php artisan key:generate
 
 4. Now load up http://localhost:8083/ in a browser, and you should see the default Laravel home page.
+
+5. If you want to then use this for your project in a private repo:
+
+        $ rm -rf .git
+        $ git init .
+        $ git add .
+        $ git commit -m "Initial clone of laravel-docker" -a
+        $ git remote add origin git@example.com:myorg/myrepo.git
+        $ git push origin master
 
 ### Todo
 
