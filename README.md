@@ -4,11 +4,17 @@ For information about Laravel, see the original <a href="https://github.com/lara
 
 A quick starting point for running Laravel under Docker locally and on AWS. Note: this codebase is very much a WIP.
 
-### Usage
+### Initial setup
 
-composer create-project --prefer-dist alexkb/laravel-docker blog
+$ composer create-project --prefer-dist alexkb/laravel-docker blog
+$ ./scripts/local/build.sh
+$ ./scripts/local/start.sh
+$ ./scripts/local/workspace.sh
+$ php artisan key:generate
+Now load up http://localhost:8083/ in a browser, and you should see the default Laravel home page.
 
 ### Todo
 
 * Add in AWS CLI container with ability to push to ECS or Fargate.
 * Document how to use with Bitbucket Pipelines
+* Containers for scheduler and queue worker.
