@@ -1,0 +1,3 @@
+FROM laradock/workspace:latest-7.4
+
+WORKDIR /var/www
