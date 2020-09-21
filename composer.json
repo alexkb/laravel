@@ -1,10 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "alexkb/laravel-docker",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "A starter project for laravel with docker",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "docker"
     ],
     "license": "MIT",
     "require": {
