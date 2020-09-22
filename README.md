@@ -2,7 +2,7 @@ For information about Laravel, see the original <a href="https://github.com/lara
 
 ### Project purpose
 
-A quick starting point for running Laravel under Docker locally and on AWS. Note: this codebase is very much a WIP.
+A base for running Laravel under Docker locally and on AWS. Note: this codebase is very much a WIP.
 
 ### Initial setup
 
