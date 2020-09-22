@@ -8,7 +8,7 @@ A base for running Laravel under Docker locally and on AWS. Note: this codebase 
 
 1. Use composer's create-project command to create a new project in a folder _blog_:
 
-        $ composer create-project --prefer-dist laravel/laravel blog 
+        $ composer create-project --prefer-dist alexkb/laravel-docker blog 
     
 2. Build and run application
 
